@@ -4,6 +4,8 @@
 
 ### O espoco é implementar conforme descrito no [desafio](/GeruChallenge.md) para qualificar a vaga de BackEnd com Python da empresa GERU.
 
+### Arquivo principal para iniciar o serviço: wsmain.py  
+
 **Linguaguem:**
 * [Python](http://www.python.org).
 ![logo da Linguaguem Python](https://www.python.org/static/img/python-logo.png)
