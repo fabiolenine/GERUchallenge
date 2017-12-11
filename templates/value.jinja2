@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Desafio Web 1.0 - Quote</title>
+  </head>
+  <body>
+    <h1>Quote escolhido</h1>
+      <table>
+        <tr>
+          {% if frase.quote_number %}
+            <th>Number</th>
+          {% endif %}
+          <th>Quote</th>
+        </tr>
+        <tr>
+          {% if frase.quote_number %}
+            <td>{{frase.quote_number}}</td>
+          {% endif %}
+          <td>{{frase.quote}}</td>
+        </tr>
+      </table>
+  </body>
+</html>
