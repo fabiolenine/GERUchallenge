@@ -38,7 +38,7 @@ def quotes(request):
 
 @view_config(route_name='values', renderer='./templates/value.jinja2')
 def quotes_values(request):
-    print('Passei por aqui...')
+    # print('Passei por aqui...')
     session = gen_save_idsession(request.session, request.current_route_url())
     retorno = q.get_quote(request.matchdict)
     return dict(frase=retorno)
